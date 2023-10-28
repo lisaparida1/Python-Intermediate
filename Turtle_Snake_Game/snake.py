@@ -28,6 +28,13 @@ class Snake:
     def extend(self):
         self.add_new_snaky(self.all_snaky[-1].position())
 
+    def reset_snake(self):
+        for s in self.all_snaky:
+            s.goto(1000, 1000)
+        self.all_snaky.clear()
+        self.create_snake()
+        self.head = self.all_snaky[0]
+
     def move(self):
         for snakes in range(len(self.all_snaky) - 1, 0, -1):
             xcor = self.all_snaky[snakes - 1].xcor()
