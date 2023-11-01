@@ -16,11 +16,18 @@ while len(guessed_states) < 50:
     which_state = scr.textinput(title=f"{len(guessed_states)}/50 guessed right!", prompt="Enter the state's name:").title()
 
     if which_state == 'Exit':
-        for i in all_states:
-            if i in guessed_states:
-                pass
-            else:
-                states_to_learn.append(i)
+        # Using for loop
+
+        # for i in all_states:
+        #     if i not in guessed_states:
+        #         states_to_learn.append(i)
+        #     else:
+        #         pass
+
+        # Using List Comprehension
+
+        states_to_learn = [i for i in all_states if i not in guessed_states]
+
         new_data = pandas.DataFrame(states_to_learn)
         new_data.to_csv("states_to_learn.csv")
         break
