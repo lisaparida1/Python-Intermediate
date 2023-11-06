@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0484c236-004f-436f-a7fc-1f736f98912e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Hirst-Painting/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hirst-Painting/.idea/hirst-painting-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hirst-Painting/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hirst-Painting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hirst-Painting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hirst-Painting/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hirst-Painting/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mile _ to_Kilo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mile _ to_Kilo/.idea/Mile _ to_Kilo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mile _ to_Kilo/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mile _ to_Kilo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mile _ to_Kilo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mile _ to_Kilo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mile _ to_Kilo/conversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mile _ to_Kilo/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Pomodoro Timer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/.idea/turtle-crossing-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/car_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/player.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/scoreboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/.idea/Turtle_Pong_Game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/ball.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/scoreboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Pong_Game/sidebar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/.idea/Turtle_Snake_Game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/food.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/highscore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/scoreboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Snake_Game/snake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/.idea/US States Quiz Game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/50_states.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/blank_states_img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../US States Quiz Game/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2XkNgcmNkb2kliCeHJ5a6LQzI1k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/KIIT/Desktop/Github/Python-Intermediate/GUI using tkinter/Password Generator"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0484c236-004f-436f-a7fc-1f736f98912e" name="Changes" comment="" />
+      <created>1699169230093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699169230093</updated>
+    </task>
+    <servers />
+  </component>
+</project>
