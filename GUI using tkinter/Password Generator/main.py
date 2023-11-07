@@ -79,7 +79,6 @@ email_label = Label(text="Email/Username:", font=(FONTNAME, 11, "bold"))
 email_label.place(x=20, y=310)
 
 email_text = Text(height=1, width=37)
-email_text.focus()
 email_text.insert(END, "xyz@gmail.com")
 email_text.place(x=170, y=310)
 
@@ -87,7 +86,6 @@ pass_label = Label(text="Password:", font=(FONTNAME, 11, "bold"))
 pass_label.place(x=40, y=350)
 
 pass_text = Text(height=1, width=22)
-pass_text.focus()
 pass_text.place(x=170, y=350)
 
 generate_btn = Button(text="Generate Password", command=generate_password)
