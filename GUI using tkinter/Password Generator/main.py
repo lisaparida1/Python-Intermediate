@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import pyperclip
+import json
 
 FONTNAME = "Arial"
 
@@ -44,16 +45,51 @@ def add():
     web = website_text.get("1.0", 'end-1c')
     passwd = pass_text.get("1.0", 'end-1c')
     mail = email_text.get("1.0", 'end-1c')
+    new_data = {
+        web: {
+            "email": mail,
+            "password": passwd
+        }
+    }
 
     if len(web) == 0 or len(passwd) == 0:
         messagebox.showinfo(title="OOPS", message="Please make sure all the fields are filled!")
     else:
-        choice = messagebox.askokcancel(title=web, message=f"Information of details entered:\nEmail: {mail}\nPassword: {passwd}\nDo you want to save?")
-        if choice:
-            with open("data.txt", mode="a") as file:
-                file.write(f"{web} | {mail} | {passwd}\n")
-                website_text.delete("1.0", 'end')
-                pass_text.delete("1.0", 'end')
+        try:
+            with open("data.json", mode="r") as data_file:
+                data = json.load(data_file)
+
+        except FileNotFoundError:
+            with open("data.json", mode="w") as data_file:
+                json.dump(new_data, data_file, indent=4)
+
+        else:
+            data.update(new_data)
+
+            with open("data.json", mode="w") as data_file:
+                json.dump(data, data_file, indent=4)
+
+        finally:
+            website_text.delete("1.0", 'end')
+            pass_text.delete("1.0", 'end')
+
+# ---------------------------- SEARCH PASSWORD ------------------------------- #
+
+
+def search_password():
+    web = website_text.get("1.0", 'end-1c')
+
+    try:
+        with open("data.json", mode="r") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="OOPS", message="No Data file found!")
+    else:
+        if web in data:
+            messagebox.showinfo(title=web, message=f"Details of entered website:\nEmail: {data[web]['email']}\nPassword: {data[web]['password']}")
+        else:
+            messagebox.showinfo(title="OOPS", message="No details for the website found!")
+
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -71,7 +107,7 @@ canvas.place(x=110, y=25)
 web_label = Label(text="Website:", font=(FONTNAME, 11, "bold"))
 web_label.place(x=40, y=270)
 
-website_text = Text(height=1, width=37)
+website_text = Text(height=1, width=22)
 website_text.focus()
 website_text.place(x=170, y=270)
 
@@ -87,6 +123,9 @@ pass_label.place(x=40, y=350)
 
 pass_text = Text(height=1, width=22)
 pass_text.place(x=170, y=350)
+
+search_btn = Button(text="Search", width=14, command=search_password)
+search_btn.place(x=358, y=266)
 
 generate_btn = Button(text="Generate Password", command=generate_password)
 generate_btn.place(x=358, y=345)
